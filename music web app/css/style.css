@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #1E1E1E;
+}
+/*icon and search*/
+header{
+    display: flex;
+}
+input{
+    width: 80%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #1D2123;
+    background-color:  #1D2123;
+}
+.fa-music{
+    margin: .5rem;
+}
+/*Sub body*/
+header{
+    display: flex;
+}
+.header-col-1{
+    background-color: blue;
+    width: 10%;
+    height: 60vh;
+}
+.header-col-2{
+    background-color:red;
+    width: 60%;
+    height: 60vh;
+}
+.header-col-3,.header-col-31{
+    background-color: blue;
+    width: 30%;
+    height: 60vh;
+}
+.header-col-1-icon{
+    width: 90%;
+    height: 40vh;
+    background-color: red;
+}
+.header-col-2-icon{
+    width: 90%;
+    height: 10vh;
+    background-color: grey;
+    margin-top: 1rem;
+}
+.header-col-31{
+    display: none;
+}
+@media(max-width:480px){
+    .header-col-31{
+        display: block;
+    }
+    .header-col-3{
+        display: none;
+    }
+}
