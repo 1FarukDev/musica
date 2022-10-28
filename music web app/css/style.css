@@ -42,6 +42,7 @@ header{
     width: 90%;
     height: 40vh;
     background-color: red;
+    border-radius: 20px;
 }
 .header-col-2-icon{
     width: 90%;
@@ -51,6 +52,10 @@ header{
 }
 .header-col-31{
     display: none;
+}
+svg{
+    display: block;
+    padding: .5rem 0rem 0 1rem;
 }
 @media(max-width:480px){
     .header-col-31{
