@@ -40,6 +40,135 @@ svg{
     margin: 1rem 0 0 1rem;
     border-radius: 50px;
 }
+.rectangle{
+    overflow: hidden;
+    border-radius: 40px;
+    background: rgba(96, 158, 175, 1);
+    height: 373px;
+    width: 686px;
+    border-radius: 40px;
+    
+    
+}
+p{
+    color: rgba(255, 255, 255, 1);
+    font-family: "Quicksand";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.rectangle-text{
+    margin: .5rem 2rem 5rem 2rem;
+}
+.elise{
+    margin-left: 2rem;
+    display: flex;
+}
+.hitss{
+    font-family: "Quicksand";
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    margin: 4rem 0 .5rem 2rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.rectangle-flex-playlist{
+    margin: 2rem 2rem 2rem 2rem;
+}
+.ellipse{
+    margin-left: -11px;
+}
+.fa-heart{
+    padding: ;
+}
+.likesa{
+    padding
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media(max-width:480px){
     .header-col-31{
         display: block;
