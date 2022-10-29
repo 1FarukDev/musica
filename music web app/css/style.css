@@ -85,22 +85,45 @@ p{
 .ellipse{
     margin-left: -11px;
 }
-.fa-heart{
-    padding: ;
-}
-.likesa{
-    padding
+.eric{
+    margin-right: 1rem;
+    margin-left: 9.5rem;
 }
 
-
-
-
-
-
-
-
-
-
+.pexel{
+    background-image: url(../data/Images/Vector2.png);
+    background-repeat: no-repeat;
+    width: 600px;
+}
+.topcharts{
+    display: block;
+    margin-left: 1rem;
+}
+small{
+    display: block;
+}
+.v{
+    display: flex;
+    justify-content: space-between;
+}
+.t{
+    background-color: blue;
+   
+}
+.gd{
+    justify-content: space-between;
+}
+.golden{
+    width: 500px;
+    height: 100px;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+}
+.goldenage-art{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
