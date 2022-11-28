@@ -254,7 +254,21 @@ small{
     overflow: scroll;
    }
    .Golden2{
-    display: blo;
+    display: block;
+    height: 233px;
+    width: 323px;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px;
+    background: rgba(26, 30, 31, 1);
+   }
+   .images{
+    height: 99px;
+width: 108px;
+left: 14px;
+top: 15px;
+border-radius: 10px;
+
    }
    .eric{
     display: none;
@@ -263,7 +277,7 @@ small{
         height: 50vh;
    }
    .hitss{
-    margin-top: 15rem;
+    margin-top: 5rem;
    }
    .rectangle-text{
     width: 100%;
@@ -271,6 +285,51 @@ small{
    .pexel{
     margin-top: 0%;
     width: 200px;
+    margin-bottom: 3rem;
+   }
+   .topcharts2{
+    display: block;
+   }
+   .music2{
+    display: flex;
+   }
+   .top2{
+    margin-left: 1rem;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+   }
+   .imge{
+    display: flex;
+    justify-content: space-between;
+   }
+   .flexs{
+    background: rgba(26, 30, 31, 1);
+    margin-left: 1rem;
+    width:  323px;
+   }
+   .hear{
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    height: 25px;
+    border-radius: 50%;
+    margin-top: 1rem;
+   }
+   input{
+    display: none;
+   }
+   nav{
+    height: 100px;
+    justify-content: ;
+   }
+   .fa-backward-step,.fa-repeat{
+    display: none;
+   }
+   .future{
+    width: 70px;
+    height: 70px;
    }
 }
 
