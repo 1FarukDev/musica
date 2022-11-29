@@ -26,7 +26,13 @@ svg{
     display: block;
     margin: auto;
     padding: .5rem 0 .5rem;
-
+    padding: 1rem;
+}
+svg:hover, svg:active{
+    filter: invert(0.4) sepia(1) saturate(20) hue-rotate(0deg) brightness(1);
+}
+.fa-search{
+    display: none;
 }
 .header-1{
     background-color: #1D2123;
@@ -40,6 +46,12 @@ svg{
     background-color: #1D2123;
     margin: 1rem 0 0 1rem;
     border-radius: 50px;
+}
+.header4{
+    display: none;
+}
+.search4{
+    display: none;
 }
 .rectangle{
     overflow: hidden;
@@ -264,10 +276,10 @@ small{
    }
    .images{
     height: 99px;
-width: 108px;
-left: 14px;
-top: 15px;
-border-radius: 10px;
+    width: 108px;
+    left: 14px;
+    top: 15px;
+    border-radius: 10px;
 
    }
    .eric{
@@ -322,7 +334,7 @@ border-radius: 10px;
    }
    nav{
     height: 100px;
-    justify-content: ;
+    display: flex;
    }
    .fa-backward-step,.fa-repeat{
     display: none;
@@ -331,6 +343,33 @@ border-radius: 10px;
     width: 70px;
     height: 70px;
    }
+   .nav-range{
+    margin-left: 7rem;
+   }
+  .fa-search{
+    display: inline-block;
+    margin-top: auto;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+  }
+  .header{
+    display: none;
+  }
+  .header4{
+    display: block;
+  }
+  .search4{
+    margin-left: 20rem;
+    color: beige;
+    margin-top: .5rem;
+    font-weight: ;
+  }
+  .fa-music{
+
+  }
 }
 
 
